@@ -19,5 +19,5 @@ Característica: Agregar producto al carrito de compras del portal web Demo Blaz
 
     Ejemplos:
        |  USUARIO       |PASSWORD  |
-       |ryzenxa |lalala|
+       |mike2512|lalala|
 
