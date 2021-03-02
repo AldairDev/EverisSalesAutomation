@@ -1,11 +1,11 @@
-package pe.belcorp.creditcard.front.stepdefinitions;
+package everis.sales.front.stepdefinitions;
 
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
 import cucumber.api.java.es.Y;
 import net.thucydides.core.annotations.Steps;
-import pe.belcorp.creditcard.front.steps.PaymentSteps;
+import everis.sales.front.steps.PaymentSteps;
 
 public class PaymentStepDefinition {
 
@@ -34,7 +34,7 @@ public class PaymentStepDefinition {
         paymentSteps.signIn();
     }
 
-    @Cuando("el cliente añada dos productos mayor de 300 soles al carrito de compras")
+    @Cuando("el cliente añada dos productos mayor a 300 soles al carrito de compras")
 
     public void addProduct(){
         paymentSteps.addCard("Phones", "Samsung galaxy s6");

@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>pe.belcorp.creditcard</groupId>
-    <artifactId>creditcard-automation</artifactId>
+    <groupId>everis.sales</groupId>
+    <artifactId>everis-automation</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>EverisFront</module>
     </modules>
-    <name>creditcard-qa</name>
+    <name>EverisFront-qa</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,27 +24,6 @@
         <webdriver.base.url></webdriver.base.url>
         <webdriver.driver></webdriver.driver>
     </properties>
-
-<!--    <repositories>-->
-<!--        <repository>-->
-<!--            <snapshots>-->
-<!--                <enabled>false</enabled>-->
-<!--            </snapshots>-->
-<!--            <id>central</id>-->
-<!--            <name>bintray</name>-->
-<!--            <url>http://jcenter.bintray.com</url>-->
-<!--        </repository>-->
-<!--    </repositories>-->
-<!--    <pluginRepositories>-->
-<!--        <pluginRepository>-->
-<!--            <snapshots>-->
-<!--                <enabled>false</enabled>-->
-<!--            </snapshots>-->
-<!--            <id>central</id>-->
-<!--            <name>bintray-plugins</name>-->
-<!--            <url>http://jcenter.bintray.com</url>-->
-<!--        </pluginRepository>-->
-<!--    </pluginRepositories>-->
 
     <dependencies>
         <dependency>
@@ -123,7 +102,7 @@
                 <version>2.22.1</version>
                 <configuration>
                     <includes>
-                        <include>**/*CreditcardFront.java</include>
+                        <include>everisFront.java</include>
                     </includes>
                     <systemPropertyVariables>
                         <webdriver.base.url>${webdriver.base.url}</webdriver.base.url>

@@ -1,12 +1,12 @@
-package pe.belcorp.creditcard.front.steps;
+package everis.sales.front.steps;
+import everis.sales.front.stepdefinitions.PaymentStepDefinition;
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.*;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.*;
-import pe.belcorp.creditcard.front.Util.Util;
-import pe.belcorp.creditcard.front.Util.PaymentPage;
-import pe.belcorp.creditcard.front.stepdefinitions.PaymentStepDefinition;
+import everis.sales.front.Util.Util;
+import everis.sales.front.Util.PaymentPage;
 
 import java.util.concurrent.TimeUnit;
 

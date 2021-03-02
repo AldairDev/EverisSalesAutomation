@@ -1,4 +1,4 @@
-package pe.belcorp.creditcard.front.Util;
+package everis.sales.front.Util;
 
 public class Util {
 
