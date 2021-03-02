@@ -11,13 +11,13 @@ Característica: Agregar producto al carrito de compras del portal web Demo Blaz
 
     Dado que un cliente ingresa al portal de Demo Blaze
     Y se registra con su usuario <USUARIO> y contraseña <PASSWORD>
-    Y el cliente accede al login de acceso
+    Y el cliente ingresa a su cuenta a través del login de acceso
 
     Cuando el cliente añada dos productos mayor a 300 soles al carrito de compras
 
-    Entonces el cliente validara el precio final como la cantidad de los productos en el carrito de compras
+    Entonces el cliente validará el precio final como la cantidad de los productos en el carrito de compras
 
     Ejemplos:
        |  USUARIO       |PASSWORD  |
-       |charizard20|lalala|
+       |man23|lalala|
 

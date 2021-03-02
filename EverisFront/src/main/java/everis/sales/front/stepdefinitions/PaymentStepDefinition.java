@@ -29,7 +29,7 @@ public class PaymentStepDefinition {
         paymentSteps.registryUser(usuario,contraseña);
     }
 
-    @Y("el cliente accede al login de acceso")
+    @Y("el cliente ingresa a su cuenta a través del login de acceso")
     public void loginPortal(){
         paymentSteps.signIn();
     }
@@ -43,7 +43,7 @@ public class PaymentStepDefinition {
 
     }
 
-    @Entonces("el cliente validara el precio final como la cantidad de los productos en el carrito de compras")
+    @Entonces("el cliente validará el precio final como la cantidad de los productos en el carrito de compras")
 
     public void VerifyProduct(){
         paymentSteps.verifyPrice();
