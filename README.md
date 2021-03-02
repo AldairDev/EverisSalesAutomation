@@ -14,7 +14,7 @@ Abrir una ventana de comando de window y ejecutar:
 
 Abrir una ventana de comando de window y ejecutar:
 
-    mvn clean verify -pl creditcard-front -am 
+    mvn clean verify -pl EverisFront -am
     
 ## Visualizar los reportes
 
